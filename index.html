@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>just travel</title>
+</head>
+
+<body class="page">
+    <header class="header">
+        <img class="header__logo" src="./images/JT-logo.svg" alt="jt logo">
+        <nav class="header__menu-list">
+            <button class="header__menu-item" type="button" aria-label="show-map">Show Map</button>
+            <button class="header__menu-item" type="button" aria-label="adout">Adout</button>
+        </nav>
+        <ul>
+            <a href="https://www.facebook.com/"><img class="header__social-network" src="./images/036-facebook 1.svg"
+                    alt="facebook logo"></a>
+            <a href="https://www.instagram.com/"><img class="header__social-network" src="./images/029-instagram 1.svg"
+                    alt="instagram logo"></a>
+            <a href="https://twitter.com/?lang=en"><img class="header__social-network" src="./images/twiter.svg"
+                    alt="twiter logo"></a>
+        </ul>
+    </header>
+    <main class="main-container">
+        <section class="input-section">
+            <h1 class="input-section__headline">JUST TRAVEL</h1>
+            <p class="input-section__description">your next trip during the quarantine time</p>
+            <button class="input-section__recomended" type="button" aria-label="recommended-now">Recommended
+                Now</button>
+            <form class="input-section__form">
+                <input class="input-section__text" type="text" placeholder="or search places here">
+            </form>
+        </section>
+        <section class="output-section">
+        </section>
+    </main>
+    <template id="description">
+        <article class="description">
+            <h2 class="description__headline">City</h2>
+            <ol class="description__content">
+                <li>
+                    <h3 class="description__info-title">what do you need to go to
+                        <span class="description__city-name">City</span>
+                    </h3>
+                    <p class="description__info">covid test/ vaccine
+                        <a class="description__link"
+                            href="https://www.google.com/search?q=covid-19+info&oq=covid-19+in&aqs=chrome.2.0i512j69i57j0i512l8.10668j0j7&sourceid=chrome&ie=UTF-8">more
+                            →</a>
+                    </p>
+                </li>
+                <li>
+                    <h3 class="description__info-title">what is open in
+                        <span class="description__city-name">City</span>
+                    </h3>
+                    <p class="description__info">Restaurants & Pubs
+                        <a class="description__link"
+                            href="https://www.google.com/search?q=covid-19+info&oq=covid-19+in&aqs=chrome.2.0i512j69i57j0i512l8.10668j0j7&sourceid=chrome&ie=UTF-8">more
+                            →</a>
+                    </p>
+                </li>
+                <li>
+                    <h3 class="description__info-title">what do you need to come back</h3>
+                    <p class="description__info">covid test/ vaccine
+                        <a class="description__link"
+                            href="https://www.google.com/search?q=covid-19+info&oq=covid-19+in&aqs=chrome.2.0i512j69i57j0i512l8.10668j0j7&sourceid=chrome&ie=UTF-8">more
+                            →</a>
+                    </p>
+                </li>
+            </ol>
+            <button class="description__button" type="button" aria-label="start-your-Journey">Start Your
+                Journey</button>
+        </article>
+    </template>
+    <template id="recommended-places">
+        <ul class="recommended-places">
+            <li class="recommended-places__place">
+                <img class="recommended-places__image" src="https://media.istockphoto.com/photos/market-square-in-bremen-with-cathedral-and-town-hall-picture-id926601940?b=1&k=20&m=926601940&s=170667a&w=0&h=9Zj3mPJSJVPb1z7zJoyprtHZz8_dEteorEHm1pEee9M=" alt="photo of Bremen">
+                <h2 class="recommended-places__title">Bremen</h2>
+            </li>
+            <li class="recommended-places__place">
+                <img class="recommended-places__image" src="https://media.istockphoto.com/photos/bogota-cityscape-of-big-buildings-and-mountains-and-blue-sky-picture-id1182337590?b=1&k=20&m=1182337590&s=170667a&w=0&h=q7b9uSP_9pIFtM4_tOc32GYcy-4l5FJPcPIjS1Q4qy4=" alt="photo of Bogota">
+                <h2 class="recommended-places__title">Bogota</h2>
+            </li>
+            <li class="recommended-places__place">
+                <img class="recommended-places__image" src="https://media.istockphoto.com/photos/temple-of-heaven-picture-id1150736924?b=1&k=20&m=1150736924&s=170667a&w=0&h=-zyoEwfSOUB05tWCDLPPJS6ojmqxR8s1iutouGBsqv8=" alt="photo of Beijing">
+                <h2 class="recommended-places__title">Beijing</h2>
+            </li>
+            <li class="recommended-places__place">
+                <img class="recommended-places__image" src="https://media.istockphoto.com/photos/french-quarter-nightlife-picture-id530085075?b=1&k=20&m=530085075&s=170667a&w=0&h=mwjsGJjlUbgdCHTr04GU5pkfL6Dxl6Qz9WIbI9e7EQ0=" alt="photo of New-Orleans">
+                <h2 class="recommended-places__title">New Orleans</h2>
+            </li>
+            <li class="recommended-places__place">
+                <img class="recommended-places__image" src="https://images.unsplash.com/photo-1570168007204-dfb528c6958f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bXVtYmFpJTIwY2l0eXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="photo of Mumbai">
+                <h2 class="recommended-places__title">Mumdai</h2>
+            </li>
+            <li class="recommended-places__place">
+                <img class="recommended-places__image" src="https://images.unsplash.com/photo-1589198376103-0486bc2426cf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80" alt="photo of Sevastopol">
+                <h2 class="recommended-places__title">Sevastopol</h2>
+            </li>
+            <li class="recommended-places__place">
+                <img class="recommended-places__image" src="https://media.istockphoto.com/photos/view-over-the-city-of-tbilisi-georgia-picture-id534560042?b=1&k=20&m=534560042&s=170667a&w=0&h=R8ZY8Ah1sCfAjJv8HAQOYGs0jgw4sI6FuB2VoVQNqcA=" alt="photo of Tbilisi">
+                <h2 class="recommended-places__title">Tbilisi</h2>
+            </li>
+            <li class="recommended-places__place">
+                <img class="recommended-places__image" src="https://images.unsplash.com/photo-1541343672885-9be56236302a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YnVkYXBlc3R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="photo of Budapest">
+                <h2 class="recommended-places__title">Budapest</h2>
+            </li>
+            <li class="recommended-places__place">
+                <img class="recommended-places__image" src="https://media.istockphoto.com/photos/tropical-sunny-beach-with-palm-trees-and-turquoise-sea-picture-id1302769216?b=1&k=20&m=1302769216&s=170667a&w=0&h=Klg733kmOro5OSgiAZS7F29upcoNWReZAg9M6KKYSNo=" alt="photo of Zanzibar">
+                <h2 class="recommended-places__title">Zanzibar</h2>
+            </li>
+            <li class="recommended-places__place">
+                <img class="recommended-places__image" src="https://media.istockphoto.com/photos/baku-city-night-view-azerbaijan-picture-id1281494020?b=1&k=20&m=1281494020&s=170667a&w=0&h=L2xYR7KtprhSuBpwxD0DHjkHuL1wFvmqdvhjXbzrLyE=" alt="photo of Baku">
+                <h2 class="recommended-places__title">Baku</h2>
+            </li>
+            <li class="recommended-places__place">
+                <img class="recommended-places__image" src="https://images.unsplash.com/photo-1521747116042-5a810fda9664?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2FuJTIwZnJhbmNpc2NvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="photo of San Francisco">
+                <h2 class="recommended-places__title">San Francisco</h2>
+            </li>
+            <li class="recommended-places__place">
+                <img class="recommended-places__image" src="https://images.unsplash.com/photo-1593979226371-0362530fbfdf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dGVsJTIwYXZpdnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="photo of Tel Aviv">
+                <h2 class="recommended-places__title">Tel Aviv</h2>
+            </li>
+            <li class="recommended-places__place">
+                <img class="recommended-places__image" src="https://media.istockphoto.com/photos/city-of-rijeka-with-the-theater-picture-id157373503?b=1&k=20&m=157373503&s=170667a&w=0&h=bads0g2V8myu60KuF-cOuD4c-sZCr8gKBoRgTbn2pJ8=" alt="photo of Rijeka">
+                <h2 class="recommended-places__title">Rijeka</h2>
+            </li>
+        </ul>
+    </template>
+    <script src="./index.js"></script>
+</body>
+
+</html>

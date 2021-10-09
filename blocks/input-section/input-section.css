@@ -1,0 +1,10 @@
+@import url(./__headline/input-section__headline.css);
+@import url(./__description/input-section__description.css);
+@import url(./__recomended/input-section__recomended.css);
+@import url(./__text/input-section__text.css);
+
+.input-section {
+    padding: 150px 0 0;
+    width: 50vw;
+    text-align: center;
+}

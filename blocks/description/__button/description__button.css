@@ -1,0 +1,15 @@
+.description__button {
+    margin-top: 40px;
+    background-color: rgba(171, 191, 176, .7);
+    border: none;
+    color: white;
+    width: 285px;
+    height: 61px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color .5s ease-in-out;
+}
+
+.description__button:hover {
+    background-color: rgba(171, 191, 176, .2)
+}

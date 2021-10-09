@@ -1,0 +1,17 @@
+@import url(./__headline/description__headline.css);
+@import url(./__content/description__content.css);
+@import url(./__info-title/description__info-title.css);
+@import url(./__city-name/description__city-name.css);
+@import url(./__link/description__link.css);
+@import url(./__button/description__button.css);
+
+.description {
+    box-sizing: border-box;
+    padding: 48px 62px 45px;
+    background-color: rgba(10, 10, 10, .7);
+    width: 442px;
+    height: 580px;
+    border-radius: 34px;
+    box-shadow: 1px 1px 10px rgba(10, 10, 10, .5), -1px -1px 10px rgba(10, 10, 10, .2);
+    margin: 30px 70px 0 0;   
+}

@@ -1,0 +1,6 @@
+.recommended-places__title {
+    z-index: 2;
+    position: relative;
+    bottom: 60px;
+    margin-left: 20px;
+}

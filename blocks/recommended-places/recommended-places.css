@@ -1,0 +1,15 @@
+@import url(./__image/recommended-places__image.css);
+@import url(./__title/recommended-places__title.css);
+
+.recommended-places {
+    list-style: none;
+    overflow-y: scroll;
+    padding-right: 20px;
+    margin: 30px 70px 0 0;
+    width: 442px;
+    height: 580px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(8, 200px);
+    gap: 20px;
+}

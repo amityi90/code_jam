@@ -1,0 +1,15 @@
+.input-section__recomended {
+    margin-top: 100px;
+    background-color: rgba(171, 191, 176, .7);
+    border: none;
+    color: white;
+    width: 285px;
+    height: 61px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform .1s ease-in-out;
+}
+
+.input-section__recomended:hover {
+    transform: scale(1.1);
+}

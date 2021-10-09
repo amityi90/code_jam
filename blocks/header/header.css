@@ -1,0 +1,13 @@
+@import url(./__menu-list/header__menu-list.css);
+@import url(./__menu-item/header__menu-item.css);
+@import url(./__social-network/header__social-network.css);
+
+.header {
+    margin: 0 auto;
+    width: calc(100% - 26px);
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 0 0;
+    border-bottom: 1px solid rgba(250, 250, 250, 0.7);
+    box-shadow: 0 4px 2px -2px  rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,15 @@
+.input-section__text {
+    margin-top: 20px;
+    background-color: rgba(171, 191, 176, .7);
+    border: none;
+    color: white;
+    width: 285px;
+    height: 61px;
+    border-radius: 30px;
+    text-align: center;
+} 
+
+::placeholder {
+    color: white;
+    text-align: center;
+  }
