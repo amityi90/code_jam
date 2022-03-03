@@ -1,8 +1,9 @@
-# Project 4: Around The U.S.
+# code-jam: places travel to
 
 
 **Description**
 This website will help you find places that possible to visit during the quarantine time
+(made during a little contest)
 
 **Technologies**
 html
